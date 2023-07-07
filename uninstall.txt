@@ -1,0 +1,12 @@
+1) Uninstall Iroha on Ubuntu
+
+sudo apt-get purge --auto-remove iroha
+
+sudo rm -rf /var/lib/iroha
+
+
+2) Uninstall docker on Ubuntu
+
+sudo apt-get purge --auto-remove docker-ce docker-ce-cli containerd.io
+
+sudo rm -rf /var/lib/docker
